@@ -5,9 +5,13 @@
 
 .home-title {
   color: #fff;
-  font-family: Raleway;
+  font-family: 'Secular One', sans-serif;
   font-size: 75px;
   margin: 18px 0;
+}
+
+.brand-title {
+  font-family: 'Secular One', sans-serif;
 }
 
 .navigation li {
