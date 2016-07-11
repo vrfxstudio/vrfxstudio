@@ -1,0 +1,44 @@
+.title-container {
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+.home-title {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 75px;
+  margin: 18px 0;
+}
+
+.navigation li {
+  text-align:right;
+  padding: 0 9px;
+  margin: 0 -9px 0 -24px;
+}
+
+.side.left .navigation li {
+  text-align:left;
+}
+
+.navigation li:after {
+  -webkit-transition:0.25s;
+  transition:0.25s;
+  display:inline-block;
+  height:3px;
+}
+.navigation li.selected:after {
+  width:30px;
+}
+
+
+.navigation li:before {
+  -webkit-transition:0.25s;
+  transition:0.25s;
+  opacity:0;
+}
+.navigation li:hover:before {
+  -webkit-transition:0.25s;
+  transition:0.25s;
+  opacity:1;
+  visibility:visible;
+}
